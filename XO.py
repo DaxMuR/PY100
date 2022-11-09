@@ -48,7 +48,7 @@ def main(field):
         result = check_victory(field)
         if result:
             print("Игрок, который играл за " + result + " выиграл!")
-            win = True
+            victory = True
             break
         if counter == 9:
             print("Ничья!")
