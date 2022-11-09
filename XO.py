@@ -35,7 +35,7 @@ def choose_symbol(symbol):
         else:
             print("Такого поля нет! Введите корректный номер!")
 
-def main(board):
+def main(field):
     counter = 0
     victory = False
     while not victory:
